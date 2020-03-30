@@ -225,10 +225,10 @@
   }
   
   .grid-item:hover {
-    transform: scale(1.1); 
-    filter: grayscale(0%);
+    transform: scale(1.2); 
+    filter: grayscale(100%);
     filter: rgb(148, 144, 144);
-    -webkit-filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     filter: none;
     
   }
@@ -257,7 +257,7 @@
   
   .grid-item a {
     text-decoration: none;
-    font-size: x-large;
+    font-size: inherit;
     color: rgb(238, 155, 155);
    
   }
